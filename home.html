@@ -1,124 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>长方形格子</title>
-
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <style>
+        table {
+            margin: auto;
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid black;
+            width: 250px;
+            height: 225px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        a:hover {
+            transform: scale(2);
+            transition: transform 0.2s;
+        }
+    </style>
 </head>
 <body>
-     <link rel="stylesheet" type="text/css" href="main.css" />
-   <div class=header>
-      <h1>SCLS专用搜索器</h1>
-   </div>
-   <script>console.log("©copyright2023VFD.ALLRIGHTSSERVED.")</script>
-   <script>console.log("CHZHU, IAN, et al. “SCLS专用搜索器.” SCLS专用搜索器, JINDATUWEN, 13 May 2023, ianchzhu.github.io/SCLS/.")</script>
-   <script>console.log("AUHORS:IANCHZHU,JINDAYANG,VFD,JINDATUWEN,ETC.")</script>
-	<table>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/science.png" alt="科学SCIENCE">
-				</div>
-				<button onclick="location.href='science.html'">
-                                                       科学 <br />
-                                                       SCIENCE
-                        </button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/math.png" alt="数学&emsp;&emsp;&emsp;MATH">
-				</div>
-				<button onclick="location.href='math.html'">
-                            数学<br />
-                            MATH
-                        </button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/chinese.png" alt="语文CHINESE">
-				</div>
-				<button onclick="location.href='chinese.html'">
-                            语文 <br />
-                            CHINESE
-                        </button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/english.png" alt="英语ENGLISH">
-				</div>
-				<button onclick="location.href='english.html'">
-                            英语 <br />
-                            ENGLISH
-                        </button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/game.png" alt="游戏GAMES">
-				</div>
-				<button onclick="location.href='game.html'">
-                            游戏<br />
-                            GAMES
-                        </button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/geography.png" alt="地理GEOGRAPHY">
-				</div>
-				<button onclick="location.href='geography.html'">
-                            地理<br />
-                            GEOGRAPHY
-                        </button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/economics.png" alt="经济ECONOMICS">
-				</div>
-				<button onclick="location.href='economics.html'">
-                            经济 <br />
-                            ECONOMICS
-                        </button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/art.png" alt="美术&emsp;&emsp;&emsp;ART">
-				</div>
-				<button onclick="location.href='art.html'">
-                           美术 <br />
-                           ART
-                        </button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<div class="img-size">
-					<img src="img/computer.png" alt="电脑COMPUTER">
-				</div>
-				<button onclick="location.href='computer.html'">
-                        电脑<br />
-                        COMPUTER
-                        </button>
-			</td>
-		</tr>
-	</table>
-   <p>©copyright2023VFD.ALLRIGHTSSERVED.</p>
-   <p>CHZHU, IAN, et al. “SCLS专用搜索器.” SCLS专用搜索器, JINDATUWEN, 13 May 2023, ianchzhu.github.io/SCLS/.</p>
-<br>
-<br>
-<br>
-<br>
-<br>
+    <script>console.log("AUHORS:IANCHZHU,JINDAYANG,VFD,JINDATUWEN,ETC.")</script>
+    <script>console.log("©copyright2023VFD.ALLRIGHTSSERVED.")</script>
+    <script>console.log("CHZHU, IAN, et al. “SCLS专用搜索器.” SCLS专用搜索器, JINDATUWEN, 13 May 2023, ianchzhu.github.io/SCLS/.")</script>
+    <table>
+        <tr>
+            <td>
+                <a href="science.html">
+                    <img src="img/science.png" width="100" height="100">
+                    <span>Science<br>科学</span>
+                </a>
+            </td>
+            <td>
+                <a href="math.html">
+                    <img src="img/math.png" width="100" height="100">
+                    <span>Math<br>数学</span>
+                </a>
+            </td>
+            <td>
+                <a href="chinese.html">
+                    <img src="img/chinese.png" width="100" height="100">
+                    <span>Chinese<br>汉语</span>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="english.html">
+                    <img src="img/english.png" width="100" height="100">
+                    <span>English<br>英语</span>
+                </a>
+            </td>
+            <td>
+                <a href="geography.html">
+                    <img src="img/geography.png" width="100" height="100">
+                    <span>Geography<br>地理</span>
+                </a>
+            </td>
+            <td>
+                <a href="economics.html">
+                    <img src="img/economics.png" width="100" height="100">
+                    <span>Economics<br>经济学</span>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="art.html">
+                    <img src="img/art.png" width="100" height="100">
+                    <span>Art<br>艺术</span>
+                </a>
+            </td>
+            <td>
+                <a href="computer.html">
+                    <img src="img/computer.png" width="100" height="100">
+                    <span>Computer<br>计算机</span>
+                </a>
+            </td>
+            <td>
+                <a href="games.html">
+                    <img src="img/games.png" width="100" height="100">
+                    <span>Games<br>游戏</span>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <div class="footer">
+	    <p>©copyright2023VFD.ALLRIGHTSSERVED.</p>
+            <p>CHZHU, IAN, YANG,JINDA et al. “SCLS专用搜索器.” SCLS专用搜索器, JINDATUWEN,VFD, 13 May 2023, ianchzhu.github.io/SCLS/.</p>
+    </div>
 </body>
 </html>
