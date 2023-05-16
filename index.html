@@ -1,16 +1,27 @@
-<!DOCTYPE html><html lang="en" style="height: 100%;">
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
 <head>
-	<meta http-equiv="refresh" content="3;desktop.html">
-	<title>Win12</title>
+   <meta http-equiv="refresh" content="3;home.html">
+   <title>Win12</title>
+   <style>
+      a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+   </style>
+       <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('div1').addEventListener('click', function() {
+                document.getElementById('img1').src = document.getElementById('img1').src
+            });
+        }
+    </script>
 </head>
-<body style="background: #000;" onload="document.getElementById('ico').style.opacity=1;">
-	<script>
-		setTimeout(() => {
-			document.getElementById('ico').style.opacity=0;
-		}, 2600);
-	</script>
-	<div class="index">
-		<>
-		<>
-	</div>
+<body style="background: #000;">
+        <div class="index">
+           <a>
+              <img scr="img/loding.gif.gif" width="500" height="500"></img>
+           </a>
+        </div>
 </body>
